@@ -12,7 +12,6 @@ import DatosProveedor from "./formularios/datosproveedor";
 import Home from "./pages/home";
 import Login from "./pages/login";
 import Perfil from "./pages/perfil";
-import Productos from "./pages/productos";
 import Servicios from "./pages/servicios";
 import Vende from "./pages/vende";
 
@@ -58,14 +57,7 @@ function App() {
             </Layout>
           }
         />
-        <Route
-          path="/productos"
-          element={
-            <Layout>
-              <Productos />
-            </Layout>
-          }
-        />
+  
         <Route
           path="/vende"
           element={
